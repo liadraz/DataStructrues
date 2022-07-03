@@ -21,9 +21,9 @@ Further information can be found in each container API see `./include`
 > All code is written in ANSI C89 
 
 
-
+<br><br>
 ## Usage
-In order to use one of the containers download both files:
+In order to use one of the containers download both files:<br>
 `./src/ds_name.c` and `./include/ds_name.h`.
 
 Compile with the following line to create an object file
@@ -39,6 +39,6 @@ Compile with the following line to create an object file
 ```
 
 
-
+<br><br>
 ## Tests
 Tests were built for each container. See ./test directory for more information.
