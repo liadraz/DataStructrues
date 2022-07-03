@@ -15,28 +15,28 @@ Implementations of common data-structures :
 - priority queue (based on heap)
 
 
-Data structures are generic, and compatible with all primitive data-types.
-Further information can be found in each container API see './include'
+Data structures are generic, and compatible with all primitive data-types.<br />
+Further information can be found in each container API see './include'<br />
 
-> All code written in ANSI C89 
+> All code is written in ANSI C89 
 
-
+<br />
 ## Usage
 In order to use one of the containers download both files:
 './src/ds_name.c' and './include/ds_name.h', 
 
 Compile with the following line to create an object file
 
-Production mode
+* Production mode
 ```bash
     gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3 -c src/ds_name.c
 ```
 
-Debug mode
+* Debug mode
 ```bash
     gcc -ansi -pedantic-errors -Wall -Wextra -g -D_DEBUG -c src/ds_name.c
 ```
 
-
+<br />
 ## Tests
 Tests were built for each container. See ./test directory for more information.
